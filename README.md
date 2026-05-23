@@ -9,6 +9,8 @@
 ![Naive Bayes](https://img.shields.io/badge/Naive%20Bayes-Classifier-blueviolet?style=for-the-badge)
 ![Logistic Regression](https://img.shields.io/badge/Logistic%20Regression-Classifier-yellow?style=for-the-badge)
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-spam-detection-system-adhipatya.streamlit.app/)
+
 **A full AI-powered Spam and Threat Detection system that uses NLP, TF-IDF, Naive Bayes, and Logistic Regression to detect spam messages and phishing emails — with heuristic-based threat detection, real mailbox parsing, automatic model selection, and both a CLI and a Streamlit web interface.**
 
 </div>
@@ -450,11 +452,15 @@ nltk.download("stopwords")
 
 ### Option 1 — Streamlit Web App (Recommended)
 
+You can access the live deployed application online here:
+👉 **[AI Spam Detection System App](https://ai-spam-detection-system-adhipatya.streamlit.app/)**
+
+Alternatively, to run the Streamlit app locally:
 ```bash
 streamlit run app/app.py
 ```
 
-The app opens in your browser at `http://localhost:8501`.
+The local app will open in your browser at `http://localhost:8501`.
 
 **What you can do in the app:**
 
@@ -735,12 +741,12 @@ General-purpose helper functions used across the project.
 - [x] CLI menu interface (Train / Evaluate / Predict)
 - [x] Custom dark red Streamlit theme
 - [x] Export evaluation report as a downloadable PDF
+- [x] Deploy the Streamlit app on Streamlit Cloud
 - [ ] Add more ML models (Random Forest, SVM, XGBoost) to the comparison
 - [ ] Add URL reputation checking for links found inside messages
 - [ ] Expand heuristic phrases list and make it configurable via a JSON file
 - [ ] Save scan history per session in the Streamlit app
 - [ ] Add multi-language spam detection support
-- [ ] Deploy the Streamlit app on Streamlit Cloud
 
 ---
 
