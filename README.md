@@ -9,8 +9,6 @@
 ![Naive Bayes](https://img.shields.io/badge/Naive%20Bayes-Classifier-blueviolet?style=for-the-badge)
 ![Logistic Regression](https://img.shields.io/badge/Logistic%20Regression-Classifier-yellow?style=for-the-badge)
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-spam-detection-system-adhipatya.streamlit.app/)
-
 **A full AI-powered Spam and Threat Detection system that uses NLP, TF-IDF, Naive Bayes, and Logistic Regression to detect spam messages and phishing emails — with heuristic-based threat detection, real mailbox parsing, automatic model selection, and both a CLI and a Streamlit web interface.**
 
 </div>
