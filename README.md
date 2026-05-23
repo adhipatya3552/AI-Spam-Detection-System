@@ -391,7 +391,7 @@ Users will have to download or provide their own email `.txt` files for testing 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/spam-detection-system.git
+git clone https://github.com/adhipatya3552/spam-detection-system.git
 cd spam-detection-system
 ```
 
