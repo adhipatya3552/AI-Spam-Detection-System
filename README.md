@@ -734,12 +734,12 @@ General-purpose helper functions used across the project.
 - [x] Streamlit web app (live scan, risk levels, file upload, view mode toggle)
 - [x] CLI menu interface (Train / Evaluate / Predict)
 - [x] Custom dark red Streamlit theme
+- [x] Export evaluation report as a downloadable PDF
 - [ ] Add more ML models (Random Forest, SVM, XGBoost) to the comparison
 - [ ] Add URL reputation checking for links found inside messages
 - [ ] Expand heuristic phrases list and make it configurable via a JSON file
 - [ ] Save scan history per session in the Streamlit app
 - [ ] Add multi-language spam detection support
-- [ ] Export evaluation report as a downloadable PDF
 - [ ] Deploy the Streamlit app on Streamlit Cloud
 
 ---
